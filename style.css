@@ -1,0 +1,114 @@
+/************* GENERAL RESET **************/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/************ LOGIN STAGE STYLING *********/
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  background-color: lightgrey;
+}
+
+.heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+   text-align: center; 
+}
+
+.login-form {
+    display: flex;
+    padding: 30px 20px;
+    background-color: #F1F1F1;
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.red-box {
+  display: inline-block;  
+  width: 5ppx;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fe7aa2;  
+}
+
+.label-text {
+  font-size: 13px;
+  font-weight: bold;
+}  
+
+.input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 100vmax;
+  background-color: #f8f8f8;
+}
+
+.input::placeholder {
+  opacity: 0.7;
+}
+
+.login-button {
+  width: 100px;
+  padding: 10px 0px;
+  border-radius: 100vmax;
+  border: none;
+  color: #F1F1F1;
+  background-color: #fe7aa2;  
+  cursor: pointer;
+}
+
+.right-side {
+  flex: 1;
+  padding-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-side-btn {
+  padding: 10px 0px;
+  border: none;
+  border-radius: 100vmax;
+  color: #F1F1F1;
+  cursor: pointer;
+}
+
+.right-side-first-btn {
+  background-color: #3b5999; 
+}
+
+.right-side-second-btn {
+  background-color: #1da1f3;
+}
+
+.signup-text {
+  font-weight: bold;
+} 
+
+.footer {
+  padding: 40px 0px;
+}
+
+.footer-text {
+  text-align: center; 
+} 
